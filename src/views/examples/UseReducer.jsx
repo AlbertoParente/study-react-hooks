@@ -1,31 +1,6 @@
 import React, { useReducer } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
-
-const initiaState = {
-    cart: [],
-    products: [],
-    user: null,
-    number: 0
-}
-
-function reduce(state, action) {
-    switch (action.type) {
-        case 'numberAdd2':
-            return { ...state, number: state.number + 2 }
-        case 'numberMulti7':
-            return { ...state, number: state.number * 7 }
-        case 'numberDiv25':
-            return { ...state, number: state.number / 25 }
-        case 'numberInt':
-            return { ...state, number: parseInt(state.number) }
-        case 'numberAddN':
-            return { ...state, number: state.number + action.payload }
-        case 'login':
-            return { ...state, user: { name: action.payload } }
-        default:
-            return state
-    }
-}
+import {initiaState, reduce} from '../../store/config'
 
 const UseReducer = (props) => {
     const [state, dispatch] = useReducer(reduce, initiaState)
