@@ -1,10 +1,3 @@
-export const initiaState = {
-    cart: [],
-    products: [],
-    user: null,
-    number: 0
-}
-
 function reduce(state, action) {
     switch (action.type) {
         case 'numberAdd2':
