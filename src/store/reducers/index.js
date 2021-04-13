@@ -1,4 +1,4 @@
-function reduce(state, action) {
+export default function reduce(state, action) {
     switch (action.type) {
         case 'numberAdd2':
             return { ...state, number: state.number + 2 }

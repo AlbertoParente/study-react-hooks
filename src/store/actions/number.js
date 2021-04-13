@@ -1,7 +1,3 @@
-export function numberAdd2(dispatch) {
-    fetch('url')
-        .then(resp => resp.json())
-        .then(json => dispatch({type: 'userListReady', payload: jason}))
-    
+export function numberAdd2(dispatch) {    
     dispatch({ type: 'numberAdd2' })
 }
