@@ -6,7 +6,7 @@ import { AppContext } from '../../data/Store'
 
 
 const UseContext = (props) => {
-    const {state, setState} = useContext(DataContext)
+    const { state, setState } = useContext(DataContext)
 
     function addNumber(delta) {
         setState({
@@ -15,7 +15,7 @@ const UseContext = (props) => {
         })
     }
 
-    const {number, text, setNumber} = useContext(AppContext)
+    const { number, text, setNumber } = useContext(AppContext)
 
     return (
         <div className="UseContext">

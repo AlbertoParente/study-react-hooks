@@ -6,7 +6,7 @@ export const useFetch = (url, method = 'get') => {
         loading: true
     })
 
-    useEffect(function() {
+    useEffect(function () {
         fetch(url, { method })
             .then(resp => resp.json())
             .then(json => setResponse({

@@ -6,7 +6,7 @@ import { useFetch } from '../../hooks/useFetch'
 const UseRef = (props) => {
     const [count, inc, dec] = useCounter()
     const url = 'http://files.cod3r.com.br/curso-react/estados.json'
-    const  response = useFetch(url)
+    const response = useFetch(url)
 
     function showStates(states) {
         return states.map(state => <li key={state.nome}>{state.nome} - {state.sigla}</li>)
@@ -23,9 +23,9 @@ const UseRef = (props) => {
             <div className="center">
                 <span className="text">{count}</span>
                 <div>
-                    <button className="btn" 
+                    <button className="btn"
                         onClick={() => inc()}>Inc</button>
-                    <button className="btn" 
+                    <button className="btn"
                         onClick={() => dec()}>Dec</button>
                 </div>
             </div>
