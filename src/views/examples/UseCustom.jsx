@@ -28,14 +28,6 @@ const UseRef = (props) => {
                     <button className="btn"
                         onClick={() => dec()}>Dec</button>
                 </div>
-                <div>
-                    <button className="btn"
-                        onClick={() => inc()}>Inc</button>
-                    <button className="btn"
-                        onClick={() => dec()}>Dec</button>
-                    <button className="btn"
-                        onClick={() => dec() * inc() / inc() * dec()}>Div</button>
-                </div>
             </div>
             <SectionTitle title="Activity #02" />
             <div className="center">
