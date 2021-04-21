@@ -18,7 +18,6 @@ const UseRef = (props) => {
                 title="Your Hook"
                 subtitle="Let's learn how to create our own Hook!"
             />
-
             <SectionTitle title="Activity #01" />
             <div className="center">
                 <span className="text">{count}</span>

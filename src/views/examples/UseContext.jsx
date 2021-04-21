@@ -23,7 +23,6 @@ const UseContext = (props) => {
                 title="Hook UseContext"
                 subtitle="Accepts a context object and returns the current context value!"
             />
-
             <SectionTitle title="Activity #01" />
             <div className="center">
                 <span className="text">{state.text}</span>
@@ -35,7 +34,6 @@ const UseContext = (props) => {
                         onClick={() => addNumber(1)}>+1</button>
                 </div>
             </div>
-
             <SectionTitle title="Activity #02" />
             <div className="center">
                 <span className="text">{text}</span>

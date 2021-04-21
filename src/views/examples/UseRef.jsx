@@ -41,7 +41,6 @@ const UseRef = (props) => {
                     ref={myInput1}
                     value={value1} onChange={e => set} />
             </div>
-
             <SectionTitle title="Activity #02" />
             <div className="center">
                 <input type="text" className="input"
