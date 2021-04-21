@@ -2,29 +2,29 @@ import React, { useEffect, useState } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 import SectionTitle from '../../components/layout/SectionTitle'
 
-function calcFatorial(num) {
+function calcFactorial(num) {
     const n = parseInt(num)
 
     if (n < 0) return -1
     if (n === 0) return 1
-    return calcFatorial(n - 1) * n
+    return calcFactorial(n - 1) * n
 }
 
 const UseEffect = (props) => {
     const [number, setNumber] = useState(1)
-    const [fatorial, setFatorial] = useState(1)
+    const [factorial, setFactorial] = useState(1)
 
     useEffect(function () {
-        setFatorial(calcFatorial(number))
+        setFactorial(calcFactorial(number))
     }, [number])
 
     useEffect(function () {
-        if (fatorial > 1000000) {
+        if (factorial > 1000000) {
             document.title = "Wow!!!"
         }
-    }, [fatorial])
-    
-    const [status, setStatus] = useState("ODD")
+    }, [factorial])
+
+    const [status, setStatus] = useState("Odd")
 
     useEffect(function () {
         setStatus(number % 2 === 0 ? "Even" : "Odd")
@@ -39,8 +39,8 @@ const UseEffect = (props) => {
             <SectionTitle title="Activity #01" />
             <div className="center">
                 <div>
-                    <span className="text">Fatorial: </span>
-                    <span className="text red">{fatorial === -1 ? 'Not Exists' : fatorial}</span>
+                    <span className="text">factorial: </span>
+                    <span className="text red">{factorial === -1 ? 'Not Exists' : factorial}</span>
                 </div>
                 <input type="number" className="input"
                     value={number}

@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 import useCounter from '../../hooks/useCounter'
 import { useFetch } from '../../hooks/useFetch'
@@ -39,3 +39,4 @@ const UseRef = (props) => {
 }
 
 export default UseRef
+*/

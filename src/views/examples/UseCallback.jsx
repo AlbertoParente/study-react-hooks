@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+/*import React, { useCallback, useState } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 import UseCallbackButtons from './UseCallbackButtons'
 
@@ -23,3 +23,4 @@ const UseCallback = (props) => {
 }
 
 export default UseCallback
+*/

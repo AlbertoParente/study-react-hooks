@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+/*import React, { useContext, useEffect } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 import SectionTitle from '../../components/layout/SectionTitle'
 import DataContext from '../../data/DataContext'
@@ -50,3 +50,4 @@ const UseContext = (props) => {
 }
 
 export default UseContext
+*/
