@@ -1,4 +1,4 @@
-/*import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 import SectionTitle from '../../components/layout/SectionTitle'
 
@@ -39,7 +39,7 @@ const UseRef = (props) => {
                 </div>
                 <input type="text" className="input"
                     ref={myInput1}
-                    value={value1} onChange={e => set} />
+                    value={value1} onChange={e => sedtValue1(e.target.value)} />
             </div>
             <SectionTitle title="Activity #02" />
             <div className="center">
@@ -52,4 +52,3 @@ const UseRef = (props) => {
 }
 
 export default UseRef
-*/
