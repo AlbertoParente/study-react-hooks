@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 
 const UseCallbackButtons = (props) => {
 
@@ -14,6 +14,4 @@ const UseCallbackButtons = (props) => {
     )
 }
 
-// export default UseCallbackButtons
-// export default React.memo(UseCallbackButtons)
-*/
+export default React.memo(UseCallbackButtons)
