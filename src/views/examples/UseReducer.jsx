@@ -1,4 +1,4 @@
-/*import React, { useReducer } from 'react'
+import React, { useReducer } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 import { initiaState, reducer } from '../../store'
 import { numberAdd2, login } from '../../store/actions'
@@ -40,4 +40,3 @@ const UseReducer = (props) => {
 }
 
 export default UseReducer
-*/
