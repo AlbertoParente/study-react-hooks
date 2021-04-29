@@ -1,10 +1,10 @@
 import React, { useReducer } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
-import { initiaState, reducer } from '../../store'
+import { initialState, reducer } from '../../store'
 import { numberAdd2, login } from '../../store/actions'
 
 const UseReducer = (props) => {
-    const [state, dispatch] = useReducer(reducer, initiaState)
+    const [state, dispatch] = useReducer(reducer, initialState)
 
     return (
         <div className="UseReducer">
