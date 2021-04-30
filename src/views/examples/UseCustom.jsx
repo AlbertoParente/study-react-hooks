@@ -1,10 +1,11 @@
-/*import React from 'react'
+import React from 'react'
 import PageTitle from '../../components/layout/PageTitle'
-import useCounter from '../../hooks/useCounter'
+import SectionTitle from '../../components/layout/SectionTitle'
+import { useCounter } from '../../hooks/useCounter'
 import { useFetch } from '../../hooks/useFetch'
 
 const UseRef = (props) => {
-    const [count, inc, dec] = useCounter()
+    const [count, inc, dec] = useCounter(10)
     const url = 'http://files.cod3r.com.br/curso-react/estados.json'
     const response = useFetch(url)
 
@@ -39,4 +40,3 @@ const UseRef = (props) => {
 }
 
 export default UseRef
-*/

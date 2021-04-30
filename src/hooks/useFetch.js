@@ -10,7 +10,7 @@ export const useFetch = (url, method = 'get') => {
         fetch(url, { method })
             .then(resp => resp.json())
             .then(json => setResponse({
-                date: json,
+                data: json,
                 loading: false
             }))
     }, [url, method])
