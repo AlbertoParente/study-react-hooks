@@ -17,7 +17,7 @@ const UseReducer = (props) => {
                     <span className="text">{state.user.name}</span>
                     : <span className="text">No User!</span>
                 }
-                <span className="text">{state}</span>
+                <span className="text">{state.number}</span>
                 <div>
                     <button className="btn"
                         onClick={() => login(dispatch, 'Juliana')}>Login</button>
